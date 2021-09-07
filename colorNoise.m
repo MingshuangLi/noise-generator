@@ -3,7 +3,7 @@
 clear
 
 fs = input('Please input the sampling frequency (Hz): ')
-a = input('Please input the a (e.g., pink =1, white = 0, brown = -1, purple = -2): '); 
+a = input('Please input the a (e.g., pink =1, white = 0, brown = 2, blue = -1, purple = -2): '); 
 duration = input('Please input the duration (second): ');
 cNoise = dsp.ColoredNoise(a,fs*duration);
 rng default;
